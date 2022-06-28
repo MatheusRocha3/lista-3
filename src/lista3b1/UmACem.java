@@ -1,5 +1,7 @@
 package lista3b1;
 
+import java.util.Scanner;
+
 public class UmACem {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
@@ -9,6 +11,8 @@ public class UmACem {
         while (contador <= 100) {
             System.out.println(contador);
             contador++;
+
+
         }
 
     }
