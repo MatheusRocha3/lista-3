@@ -16,10 +16,10 @@ public class ReajusteSalario {
         if (salario <= 280.00) {
             valordoaumento = salario * 20 / 100;
             novosalario = salario + valordoaumento;
-            System.out.println("Seu salário antes do reajuste é: " + salario);
+            System.out.println("Seu salário antes do reajuste é: " + salario + "R$");
             System.out.println("Seu percentual de aumento é de: 20%");
-            System.out.println("O aumento de seu salário é de: " + valordoaumento);
-            System.out.println("Seu novo salário é de: " + novosalario);
+            System.out.println("O aumento de seu salário é de: " + valordoaumento + "R$");
+            System.out.println("Seu novo salário é de: " + novosalario + "R$");
         } else if (salario <= 700.00)  {
             valordoaumento = salario * 15 / 100;
             novosalario = salario + valordoaumento;
